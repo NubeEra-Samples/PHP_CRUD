@@ -72,7 +72,7 @@
                             echo "<p class='lead'><em>No records were found.</em></p>";
                         }
                     } else{
-                        echo "ERROR: Could not able to execute $sql. " . $mysqli->error;
+                        echo "ERROR: Could not able to execute $mysqli->error";
                     }
                     //Close connection
                     $mysqli->close();
